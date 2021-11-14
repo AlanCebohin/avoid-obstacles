@@ -2,9 +2,9 @@
 
 public class FloorLimit : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
-    {
-        // SceneManager.LoadScene(0);
-        FindObjectOfType<GameManager>().EndGame();
-    }
+    // void OnTriggerEnter(Collider collider)
+    // {
+    //     // SceneManager.LoadScene(0);
+    //     FindObjectOfType<GameManager>().EndGame();
+    // }
 }

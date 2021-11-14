@@ -8,6 +8,9 @@ public class Score : MonoBehaviour
     
     void Update()
     {
-        score.text = player.position.z.ToString("0");
+        if (player.position.y > 0)
+        {
+            score.text = player.position.z.ToString("0");
+        } else score.text = score.text;
     }
 }
